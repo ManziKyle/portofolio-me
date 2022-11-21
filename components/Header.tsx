@@ -25,7 +25,7 @@ export default function Header({}: Props) {
             {/* social icons */}
             <SocialIcon url="https://www.youtube.com" fgColor='gray'bgColor='transparent'/>
             <SocialIcon url="https://www.facebook.com" fgColor='gray'bgColor='transparent'/>
-            <SocialIcon url="https://www.youtube.com" fgColor='gray'bgColor='transparent'/>
+            <SocialIcon url="https://linkedin.com/in/jaketrent" fgColor='gray'bgColor='transparent'/>
         </motion.div>
         <motion.div 
         initial={{
