@@ -2,15 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase tracking-widest text-xs text-gray-500 transition-all hover:border-[#74ABBA]/40 md:hover:text-xl;
+  }
 
-@layer components{
-    .heroButton{
-        @apply px-6 py-2 border border-[#242424] rounded-full uppercase tracking-widest text-xs text-gray-500 transition-all hover:border-[#74ABBA]/40 md:hover:text-xl
-
-        
-    }
-
-    .tittle{
-        @apply absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl
-    }
+  .tittle {
+    @apply absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl;
+  }
 }
